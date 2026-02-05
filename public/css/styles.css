@@ -1,0 +1,134 @@
+.form-checkbox {
+    flex-direction: row;
+}
+
+.form-checkbox input {
+    margin-right: 10px;
+}
+
+/*USERS*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /*colocar os itens um do lado do outro*/
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 10px;
+    /* afastando um iten do outro em 10px */
+}
+
+.container .item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1 1 29%;
+    /*determinar uma largura pra eles*/
+    max-width: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item h2,
+.item p {
+    margin: .8em;
+    /*pra afastar os itens deles*/
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.actions a,
+.actions input {
+    border: 1px solid #888;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 5px;
+    font-size: 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.actions.details-btn {
+
+    border-color: #004085;
+    border-color: #004085;
+
+
+}
+
+.actions.delete-btn {
+    border-color: #721c24;
+    border-color: #721c24;
+
+}
+
+/*ADDRESS*/
+
+.address-container {
+    max-width: 1000px;
+    margin: 1em auto;
+    /*espaçar em cima e em baixo e centralizar na tela*/
+    padding-top: 1em;
+    /*espaçamento interno*/
+    padding-bottom: 200px;
+    border-top: 1px solid #ccc;
+
+}
+
+.address-container h2 {
+
+    margin-bottom: 1em;
+
+}
+
+.address-container form {
+    width: 300px;
+}
+
+.address-list {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: 1px solid #ccc;
+
+}
+
+.address-list div {
+    display: flex;
+    /*alinhados na horizontal*/
+    margin-bottom: 1em;
+    /*espaçamentos inferiores*/
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+}
+
+.address-list form {
+    margin-left: 1em;
+    /*pra destacar dos dados*/
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-add {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
