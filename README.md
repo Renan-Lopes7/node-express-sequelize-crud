@@ -6,4 +6,4 @@ Sequelize
 MySql
 Handlebars
 
-##`para fins de estudo e prática.`
+`para fins de estudo e prática.`
