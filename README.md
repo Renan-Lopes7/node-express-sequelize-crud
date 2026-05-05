@@ -46,9 +46,7 @@ npm install
 # Inicie o servidor
 node index.js
 ```
-
+ ⚠️ Antes de rodar, configure suas credenciais MySQL no arquivo `db/conn.js`
+ 
 > A aplicação estará disponível em `http://localhost:3000`
 
----
-
-Desenvolvido por [Renan Lopes](https://github.com/Renan-Lopes7)
